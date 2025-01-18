@@ -1,0 +1,150 @@
+
+
+
+
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.body{
+background-color: red;
+
+}
+ 
+html {
+    background-color:rgb(249, 248, 252);
+    
+} 
+ 
+.app-name {
+    font-size: 2.3rem;
+    color: rgb(70, 19, 210);
+    margin-bottom:100px;
+    
+}
+ 
+.App {
+    
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height:100%;
+    min-height:590px;
+    background-color: rgb(108, 184, 93);
+    text-align: center;
+    margin:50px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+   
+
+}
+ 
+
+ 
+.city-search {
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    border: 2px solid rgb(204, 204, 204);
+    outline: 2px solid green;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #caae91;
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    padding: 12px 40px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    color: #faf9fb;
+    margin-bottom: 20px;
+    
+}
+ 
+.city-search::-moz-focus-outer {
+    width:100%;
+    
+}
+ 
+.city-name {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 8px;
+}
+ 
+.date {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #777;
+}
+ 
+.icon-temp {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #05319a;
+    text-align: center;
+}
+ 
+.deg {
+    font-size: 1.2rem;
+    vertical-align:super;
+}
+ 
+.des-wind {
+    font-weight: 500;
+    color: #e62323;
+}
+ 
+.error-message {
+    display: block;
+    text-align: center;
+    color: #d32f2f;
+    font-size: 24px;
+    margin-top: auto;
+}
+ 
+.Loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+ 
+.Loader>div {
+    margin: 0 auto;
+}
+ 
+.weather-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: skyblue;
+}
+ 
+.weather-icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: skyblue;
+}
+@media (min-width:320px) and    (max-width: 769px) {
+   .error{
+    font-size:large !important;
+   }
+    
+   input.city-search{
+    width: auto;
+   }
+   h1.app-name{
+    font-size: 1.3rem;
+    
+
+    
+   }
+    
+}
